@@ -1,0 +1,5 @@
+[default]
+address = "0.0.0.0"
+port = 7003
+limits = { form = "64 kB", json = "1 MiB" }
+secret_key = "hPRYyVRiMyxpw5sBB1XeCMN1kFsDCqKvBi2QJxBVHQk="
