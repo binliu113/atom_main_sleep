@@ -1,20 +1,18 @@
-pub mod udpcli_cache;
+pub mod configuration;
+mod init_file_config;
+mod sqlist_config;
 
-// use std::collections::HashMap;
-// use rocket::futures::lock::Mutex;
-//
-// pub struct Cache {
-//     pub data: HashMap<String, String>,
-// }
-//
-// impl Cache {
-//     pub fn new() -> Self {
-//         Self { data: Default::default() }
-//     }
-// }
-//
-// lazy_static::lazy_static! {
-//     pub static ref CACHE_MUTEX: Mutex<Cache> = Mutex::new(Cache::new());
-//
-//     pub static ref LIST_MUTEX: Mutex<Vec<i32>> = Mutex::new(vec![]);
-// }
+use std::collections::HashMap;
+
+use rocket::futures::lock::Mutex;
+
+use super::utils::socket_util::UDPSktTools;
+
+use configuration::{Configuration};
+
+lazy_static::lazy_static! {
+
+    pub static ref SKT_LIST: Mutex<HashMap<String,UDPSktTools>> = Default::default();
+
+    pub static ref CONFIGURATION: Mutex<Configuration> = Mutex::new(Configuration::new());
+}
