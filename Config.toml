@@ -1,1 +1,20 @@
-sqlite_pathname = "data_cache/data.sqlite"
+[sqlite]
+pathname = "data_cache/data.sqlite"
+
+[[sqlite.tables]]
+info = "用户表_0"
+tablename = "users_0"
+columns = [
+    "id INTEGER",
+    "name TEXT",
+    "age INTEGER"
+]
+
+[[sqlite.tables]]
+info = "用户表_1"
+tablename = "users_1"
+columns = [
+    "id INTEGER",
+    "name TEXT",
+    "age INTEGER"
+]

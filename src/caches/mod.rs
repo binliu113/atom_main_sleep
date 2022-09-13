@@ -1,6 +1,6 @@
 pub mod configuration;
-mod init_file_config;
-mod sqlist_config;
+mod file_config;
+mod db_conn_config;
 
 use std::collections::HashMap;
 

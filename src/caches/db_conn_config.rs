@@ -1,11 +1,11 @@
 use sqlite::Connection;
 
 
-pub struct SqlistConfig {
+pub struct DBConn {
     pub conn: Connection,
 }
 
-impl SqlistConfig {
+impl DBConn {
     pub fn new(sqlite_path: String) -> Self {
         match Connection::open(&sqlite_path) {
             Ok(_con) => {
