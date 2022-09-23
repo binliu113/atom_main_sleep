@@ -1,6 +1,6 @@
-use rocket::Rocket;
 use structopt::StructOpt;
 use super::super::caches::CONFIGURATION;
+use super::SQLITE_MODEL;
 
 #[derive(Debug, StructOpt)]
 pub enum Event {
@@ -11,10 +11,6 @@ pub enum Event {
     /// 重新设置数据库数据
     #[structopt(name = "reset")]
     ResetDB,
-
-    /// 测试
-    #[structopt(name = "test")]
-    TestDB,
 }
 
 #[derive(Debug, StructOpt)]
@@ -37,17 +33,25 @@ pub struct ClearDB {}
 
 impl ClearDB {
     pub async fn run() -> Result<(), rocket::Error> {
-        let config = CONFIGURATION.lock().await;
-        let statement = config.sqlist.conn.execute(
-            "DELETE FROM users;",
-        );
+        let config = CONFIGURATION.clone();
+
+        let tables = &config.config.sqlite.tables.as_ref().unwrap().clone();
+
+        let mut statement = String::from("");
+
+        for (_index, table) in tables.iter().enumerate() {
+            let t = format!("DROP TABLE {};", &table.tablename);
+            statement += &*t;
+        }
+
+        let statement = SQLITE_MODEL.lock().await.conn.execute(statement);
+
         match statement {
             Ok(_) => {
-                println!("清除数据操作成功！！");
                 Ok(())
             }
             Err(_) => {
-                panic!("清除数据操作失败！！");
+                panic!("操作失败！！");
             }
         }
     }
@@ -57,38 +61,35 @@ pub struct ResetDB {}
 
 impl ResetDB {
     pub async fn run() -> Result<(), rocket::Error> {
-        let config = CONFIGURATION.lock().await;
-        let statement = config.sqlist.conn.execute(
-            "CREATE TABLE users (name TEXT, age INTEGER);"
-        );
-        match statement {
-            Ok(_) => {
-                Ok(())
-            }
-            Err(_) => {
-                TestDB::run();
-                ResetDB::run();
-                Ok(())
-            }
+        let config = CONFIGURATION.clone();
+        let sqlite_model = SQLITE_MODEL.lock().await;
+
+        let tables = &config.config.sqlite.tables.as_ref().unwrap().clone();
+
+        let mut statement = String::from("");
+
+        let mut d_statement = String::from("");
+
+        for (_index, table) in tables.iter().enumerate() {
+            let t = format!("CREATE TABLE {} ({});", table.tablename.clone(), table.columns.join(","));
+
+            let d = format!("DROP TABLE {};", table.tablename.clone());
+
+            d_statement += &*d;
+
+            statement += &*t;
         }
-    }
-}
 
-pub struct TestDB {}
+        let statement_res = sqlite_model.conn.execute(&statement);
 
-impl TestDB {
-    pub async fn run() -> Result<(), rocket::Error> {
-        let config = CONFIGURATION.lock().await;
-        let statement = config.sqlist.conn.execute(
-            "DROP TABLE users;"
-        );
-        match statement {
+        match statement_res {
             Ok(_) => {
-                println!("测试操作成功！！");
                 Ok(())
             }
             Err(_) => {
-                panic!("清除数据操作失败！！");
+                let _ = sqlite_model.conn.execute(&d_statement);
+                let _ = sqlite_model.conn.execute(&statement);
+                Ok(())
             }
         }
     }

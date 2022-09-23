@@ -173,10 +173,12 @@ pub mod udpcli_struct {
 
         #[derive(Deserialize, Serialize, Clone)]
         pub struct ShowListData {
+            pub hash_key: String,
             pub name: String,
             pub ip: String,
             pub port: u16,
-            pub hash_key: String,
+            pub online: bool,
+            pub skt_type: String,
         }
     }
 }

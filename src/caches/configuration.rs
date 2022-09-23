@@ -1,20 +1,15 @@
-use super::file_config::ConfigFile;
-use super::db_conn_config::DBConn;
+use super::config_parser::ConfigParser;
 
+#[derive(Clone, Debug)]
 pub struct Configuration {
-    pub config_file: ConfigFile,
-    pub sqlist: DBConn,
+    pub config: ConfigParser,
 }
 
 impl Configuration {
     pub fn new() -> Self {
-        let config_file = ConfigFile::new();
-        let db_conn = DBConn::new(
-            config_file.sqlite.pathname.clone()
-        );
+        let config = ConfigParser::new();
         Self {
-            config_file: config_file.clone(),
-            sqlist: db_conn,
+            config: config.clone(),
         }
     }
 }

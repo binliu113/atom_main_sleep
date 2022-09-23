@@ -1,12 +1,18 @@
 mod controller;
+mod on_liftoff;
 
+use std::env;
 use rocket;
+use log4rs;
 use structopt::StructOpt;
+use on_liftoff::OnLiftoff;
 use rocket::fairing::AdHoc;
+use rocket::tokio::sync::{mpsc};
 use rocket::{routes, catch, catchers};
+use rocket_learning::caches::{SKT_LIST, TX_SQL_CHANNEL, CONFIGURATION};
 use controller::udpcli_controller::{start, stop, list, create};
-use rocket_learning::caches::{CONFIGURATION, SKT_LIST};
-use rocket_learning::sqlist_model::manage::{ArgsOpt, Event, ClearDB, ResetDB, TestDB};
+use rocket_learning::sqlist_model::manage::{ArgsOpt, Event, ClearDB, ResetDB};
+
 
 #[catch(404)]
 fn catch_404() -> String {
@@ -15,12 +21,17 @@ fn catch_404() -> String {
 
 #[rocket::main]
 async fn main() -> Result<(), rocket::Error> {
+    let mut cur_path = env::current_dir().unwrap();
+
+    cur_path.push(CONFIGURATION.config.log4rs.config_path.as_str());
+
+    log4rs::init_file(cur_path.as_path(), Default::default()).unwrap();
+
     match ArgsOpt::from_args() {
         ArgsOpt::Manage { event } => {
             match event {
                 Event::ClearDB => ClearDB::run().await,
                 Event::ResetDB => ResetDB::run().await,
-                Event::TestDB => TestDB::run().await
             }
         }
         ArgsOpt::Server { .. } => {
@@ -28,7 +39,12 @@ async fn main() -> Result<(), rocket::Error> {
                 .register("/", catchers![catch_404])
                 .mount("/api", routes![start,stop,list,create])
                 .attach(AdHoc::on_liftoff("Liftoff Printer", |_| Box::pin(async move {
-                    CONFIGURATION.lock().await;
+                    let (tx, rx) = mpsc::channel(2048);
+
+                    *TX_SQL_CHANNEL.lock().await = Some(tx);
+
+                    OnLiftoff::sql_event(rx).await;
+
                     SKT_LIST.lock().await;
                 })))
                 .launch()

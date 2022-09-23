@@ -8,6 +8,7 @@ pub struct UDPSktTools {
     pub port: u16,
     pub online: bool,
     pub skt: Result<UdpSocket, bool>,
+    pub skt_type: String,
 }
 
 impl UDPSktTools {
@@ -21,8 +22,9 @@ impl UDPSktTools {
                     online: false,
                     skt: match UdpSocket::bind("0.0.0.0:8080") {
                         Ok(s) => Ok(s),
-                        Err(_) => Err(true)
+                        Err(_) => Err(false)
                     },
+                    skt_type: Default::default(),
                 }
             }
             Some(sa) => {
@@ -36,8 +38,9 @@ impl UDPSktTools {
                     online: false,
                     skt: match UdpSocket::bind(sa.clone()) {
                         Ok(s) => Ok(s),
-                        Err(_) => Err(true)
+                        Err(_) => Err(false)
                     },
+                    skt_type: Default::default(),
                 }
             }
         }
@@ -66,7 +69,7 @@ impl UDPSktTools {
         }
     }
 
-    pub fn gen_sha256(&self,hashme: &str) -> String {
+    pub fn gen_sha256(&self, hashme: &str) -> String {
         let mut sh = Sha256::new();
         sh.input_str(hashme);
         sh.result_str()

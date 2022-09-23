@@ -13,34 +13,39 @@ pub struct Tables {
 #[derive(Debug, Deserialize, Clone, Default)]
 pub struct Sqlite {
     pub pathname: String,
+    pub debug_query: Option<bool>,
     pub tables: Option<Vec<Tables>>,
 }
 
 #[derive(Debug, Deserialize, Clone, Default)]
-pub struct ConfigFile {
-    pub sqlite: Sqlite,
+pub struct Log4rs {
+    pub config_path: String,
 }
 
-impl ConfigFile {
+#[derive(Debug, Deserialize, Clone, Default)]
+pub struct ConfigParser {
+    pub sqlite: Sqlite,
+    pub log4rs: Log4rs,
+}
+
+impl ConfigParser {
     pub fn new() -> Self {
-        match ConfigFile::config_parser() {
-            None => {
-                Self {
-                    sqlite: Default::default()
-                }
-            }
-            Some(config) => {
-                Self {
-                    sqlite: config.sqlite.clone()
-                }
+        match ConfigParser::config_parser() {
+            None => Self {
+                sqlite: Default::default(),
+                log4rs: Default::default(),
+            },
+            Some(config) => Self {
+                sqlite: config.sqlite.clone(),
+                log4rs: config.log4rs.clone(),
             }
         }
     }
 
-    fn config_parser() -> Option<ConfigFile> {
+    fn config_parser() -> Option<ConfigParser> {
         let mut p = env::current_dir().unwrap();
         p.push("Config.toml");
-        match toml::from_slice::<ConfigFile>(&fs::read(&p).unwrap()) {
+        match toml::from_slice::<ConfigParser>(&fs::read(&p).unwrap()) {
             Ok(r) => { Some(r) }
             _ => None
         }

@@ -1,20 +1,18 @@
+[log4rs]
+config_path = "log4rs.yml"
+
 [sqlite]
 pathname = "data_cache/data.sqlite"
+debug_query = true
 
 [[sqlite.tables]]
-info = "用户表_0"
-tablename = "users_0"
+info = "用户表"
+tablename = "skt_list"
 columns = [
-    "id INTEGER",
-    "name TEXT",
-    "age INTEGER"
-]
-
-[[sqlite.tables]]
-info = "用户表_1"
-tablename = "users_1"
-columns = [
-    "id INTEGER",
-    "name TEXT",
-    "age INTEGER"
+    "id INTEGER not null constraint list_id primary key autoincrement",
+    "name TEXT not null",
+    "skt_type TEXT not null",
+    "ip TEXT not null",
+    "port INTEGER not null",
+    "online TEXT not null",
 ]

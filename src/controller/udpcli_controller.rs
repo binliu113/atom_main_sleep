@@ -1,8 +1,9 @@
 use rocket::{get, post};
 use rocket::serde::json::Json;
-use rocket_learning::caches::SKT_LIST;
-use rocket_learning::utils::resp_struct::{RespJson, udpcli_struct, RespCode};
+use rocket_learning::caches::{SKT_LIST, TX_SQL_CHANNEL};
 use rocket_learning::utils::socket_util::UDPSktTools;
+use rocket_learning::utils::resp_struct::{RespJson, udpcli_struct, RespCode};
+
 
 #[post("/start", data = "<_start_pids>")]
 pub async fn start(_start_pids: Json<udpcli_struct::form::StartPids>) {}
@@ -20,6 +21,8 @@ pub async fn list() -> Json<RespJson<Vec<udpcli_struct::resp::ShowListData>>> {
                 name: skt_tools.name.clone(),
                 ip: skt_tools.ip.clone(),
                 port: skt_tools.port.clone(),
+                online: skt_tools.online.clone(),
+                skt_type: skt_tools.skt_type.clone(),
             }
         );
     }
@@ -35,7 +38,8 @@ pub async fn create(create_params: Json<udpcli_struct::form::CreateParams>) -> J
         ip: args.ip.to_string(),
         port: args.port as u16,
         online: false,
-        skt: Err(true),
+        skt: Err(false),
+        skt_type: args.skt_type.to_string(),
     };
     let hash_key = skt.gen_sha256(&_key as &str);
     let bol = match SKT_LIST.lock().await.get(&hash_key as &str) {
@@ -45,7 +49,12 @@ pub async fn create(create_params: Json<udpcli_struct::form::CreateParams>) -> J
     match bol {
         Err(_) => RespJson::new(false).body(RespCode::CreateErr),
         Ok(_) => {
-            SKT_LIST.lock().await.insert(hash_key, skt);
+            let send = TX_SQL_CHANNEL.lock().await.clone();
+
+            send.unwrap().send(String::from(_key)).await.unwrap();
+
+            // SKT_LIST.lock().await.insert(hash_key, skt);
+
             RespJson::new(true).body(RespCode::CreateSuc)
         }
     }

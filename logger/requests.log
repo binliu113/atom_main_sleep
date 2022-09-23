@@ -1,0 +1,950 @@
+{"time":"2022-09-23T15:52:03.083136261+08:00","message":"🔧 Configured for debug.","module_path":"rocket::config::config","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/config/config.rs","line":357,"level":"INFO","target":"rocket::launch","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.083316462+08:00","message":"address: \u001b[1;49;39m0.0.0.0\u001b[0m","module_path":"rocket::config::config","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/config/config.rs","line":358,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.083474164+08:00","message":"port: \u001b[1;49;39m7003\u001b[0m","module_path":"rocket::config::config","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/config/config.rs","line":359,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.083628765+08:00","message":"workers: \u001b[1;49;39m8\u001b[0m","module_path":"rocket::config::config","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/config/config.rs","line":360,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.083783066+08:00","message":"ident: \u001b[1;49;39mRocket\u001b[0m","module_path":"rocket::config::config","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/config/config.rs","line":361,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.083943967+08:00","message":"limits: \u001b[1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB\u001b[0m","module_path":"rocket::config::config","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/config/config.rs","line":362,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.084112568+08:00","message":"temp dir: \u001b[1;49;39m/tmp\u001b[0m","module_path":"rocket::config::config","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/config/config.rs","line":363,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.084426870+08:00","message":"http/2: \u001b[1;49;39mtrue\u001b[0m","module_path":"rocket::config::config","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/config/config.rs","line":364,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.084583372+08:00","message":"keep-alive: \u001b[1;49;39m5\u001b[0m\u001b[1;49;39ms\u001b[0m","module_path":"rocket::config::config","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/config/config.rs","line":368,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.084741473+08:00","message":"tls: \u001b[1;49;39mdisabled\u001b[0m","module_path":"rocket::config::config","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/config/config.rs","line":374,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.084900974+08:00","message":"shutdown: \u001b[1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s\u001b[0m","module_path":"rocket::config::config","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/config/config.rs","line":386,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.085069275+08:00","message":"log level: \u001b[1;49;39mnormal\u001b[0m","module_path":"rocket::config::config","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/config/config.rs","line":387,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.085224677+08:00","message":"cli colors: \u001b[1;49;39mtrue\u001b[0m","module_path":"rocket::config::config","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/config/config.rs","line":388,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.085535679+08:00","message":"📬 \u001b[35mRoutes\u001b[0m:","module_path":"rocket::rocket","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/rocket.rs","line":568,"level":"INFO","target":"rocket::launch","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.085742280+08:00","message":"\u001b[36m(\u001b[0m\u001b[37mstop\u001b[0m\u001b[36m)\u001b[0m \u001b[32mPOST\u001b[0m \u001b[4;34m/api\u001b[0m\u001b[34m/stop\u001b[0m","module_path":"rocket::rocket","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/rocket.rs","line":575,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.085912182+08:00","message":"\u001b[36m(\u001b[0m\u001b[37mlist\u001b[0m\u001b[36m)\u001b[0m \u001b[32mGET\u001b[0m \u001b[4;34m/api\u001b[0m\u001b[34m/list\u001b[0m","module_path":"rocket::rocket","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/rocket.rs","line":575,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.086082083+08:00","message":"\u001b[36m(\u001b[0m\u001b[37mstart\u001b[0m\u001b[36m)\u001b[0m \u001b[32mPOST\u001b[0m \u001b[4;34m/api\u001b[0m\u001b[34m/start\u001b[0m","module_path":"rocket::rocket","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/rocket.rs","line":575,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.086252284+08:00","message":"\u001b[36m(\u001b[0m\u001b[37mcreate\u001b[0m\u001b[36m)\u001b[0m \u001b[32mPOST\u001b[0m \u001b[4;34m/api\u001b[0m\u001b[34m/create\u001b[0m","module_path":"rocket::rocket","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/rocket.rs","line":575,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.086423286+08:00","message":"🥅 \u001b[35mCatchers\u001b[0m:","module_path":"rocket::rocket","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/rocket.rs","line":568,"level":"INFO","target":"rocket::launch","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.086641387+08:00","message":"\u001b[36m(\u001b[0m\u001b[37mcatch_404\u001b[0m\u001b[36m)\u001b[0m \u001b[34m404\u001b[0m","module_path":"rocket::rocket","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/rocket.rs","line":575,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.086852889+08:00","message":"📡 \u001b[35mFairings\u001b[0m:","module_path":"rocket::fairing::fairings","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/fairing/fairings.rs","line":176,"level":"INFO","target":"rocket::launch","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.087013690+08:00","message":"\u001b[1;49;39mLiftoff Printer\u001b[0m (\u001b[1;34mliftoff\u001b[0m)","module_path":"rocket::fairing::fairings","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/fairing/fairings.rs","line":179,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.087178491+08:00","message":"\u001b[1;49;39mShield\u001b[0m (\u001b[1;34mliftoff, response, singleton\u001b[0m)","module_path":"rocket::fairing::fairings","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/fairing/fairings.rs","line":179,"level":"INFO","target":"rocket::launch_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.087578194+08:00","message":"🛡️ \u001b[35mShield\u001b[0m:","module_path":"rocket::shield::shield","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/shield/shield.rs","line":210,"level":"INFO","target":"rocket::shield::shield","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.087798196+08:00","message":"X-Frame-Options: \u001b[49;39mSAMEORIGIN\u001b[0m","module_path":"rocket::shield::shield","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/shield/shield.rs","line":213,"level":"INFO","target":"_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.087952097+08:00","message":"Permissions-Policy: \u001b[49;39minterest-cohort=()\u001b[0m","module_path":"rocket::shield::shield","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/shield/shield.rs","line":213,"level":"INFO","target":"_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.088149598+08:00","message":"X-Content-Type-Options: \u001b[49;39mnosniff\u001b[0m","module_path":"rocket::shield::shield","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/shield/shield.rs","line":213,"level":"INFO","target":"_","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:03.088496201+08:00","message":"🚀 \u001b[1;49;39mRocket has launched from\u001b[0m \u001b[1;4;49;39mhttp://0.0.0.0:7003\u001b[0m","module_path":"rocket::rocket","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/rocket.rs","line":660,"level":"INFO","target":"rocket::launch","thread":"main","thread_id":140108297281088,"mdc":{}}
+{"time":"2022-09-23T15:52:12.905550281+08:00","message":"\u001b[32mPOST\u001b[0m \u001b[34m/api/create\u001b[0m \u001b[33mapplication\u001b[0m\u001b[33m/\u001b[0m\u001b[33mjson\u001b[0m:","module_path":"rocket::server","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/server.rs","line":204,"level":"INFO","target":"rocket::server","thread":"rocket-worker-thread","thread_id":140108293072448,"mdc":{}}
+{"time":"2022-09-23T15:52:12.905961684+08:00","message":"Matched: \u001b[36m(\u001b[0m\u001b[37mcreate\u001b[0m\u001b[36m)\u001b[0m \u001b[32mPOST\u001b[0m \u001b[4;34m/api\u001b[0m\u001b[34m/create\u001b[0m","module_path":"rocket::server","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/server.rs","line":277,"level":"INFO","target":"_","thread":"rocket-worker-thread","thread_id":140108293072448,"mdc":{}}
+{"time":"2022-09-23T15:52:12.906328387+08:00","message":"\u001b[1;49;39mOutcome:\u001b[0m \u001b[49;32mSuccess\u001b[0m","module_path":"rocket::server","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/server.rs","line":287,"level":"INFO","target":"_","thread":"rocket-worker-thread","thread_id":140108293072448,"mdc":{}}
+{"time":"2022-09-23T15:52:12.906836691+08:00","message":"\u001b[32mResponse succeeded.\u001b[0m","module_path":"rocket::server","file":"/home/liubin/.cargo/registry/src/mirrors.ustc.edu.cn-12df342d903acd47/rocket-0.5.0-rc.2/src/server.rs","line":117,"level":"INFO","target":"_","thread":"rocket-worker-thread","thread_id":140108293072448,"mdc":{}}
+{"time":"2022-09-23T15:52:12.907385895+08:00","message":"DELETE FROM skt_list WHERE id=1 AND name=liubin;","module_path":"rocket_learning::sqlist_model::util","file":"src/sqlist_model/util.rs","line":52,"level":"INFO","target":"rocket_learning::sqlist_model::util","thread":"rocket-worker-thread","thread_id":140108286768704,"mdc":{}}
+2022-09-23T15:53:39.058774274+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T15:53:39.059017376+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T15:53:39.059479979+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T15:53:39.059612280+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T15:53:39.059739082+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T15:53:39.059900383+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T15:53:39.060063784+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T15:53:39.060206785+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T15:53:39.060358386+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T15:53:39.060514287+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T15:53:39.060675288+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T15:53:39.060833689+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T15:53:39.060987491+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T15:53:39.061352394+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T15:53:39.061622496+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T15:53:39.061803597+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T15:53:39.061959598+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T15:53:39.062133599+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T15:53:39.062308501+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T15:53:39.062472002+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T15:53:39.062702604+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T15:53:39.062854205+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T15:53:39.063012506+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T15:53:39.063479010+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T15:53:39.063659211+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T15:53:39.063821712+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T15:53:39.063983813+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T15:53:39.064819420+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T15:55:14.213986081+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T15:55:14.214837188+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T15:55:14.215052989+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T15:55:14.215229891+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T15:55:14.215403692+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T15:55:14.215535993+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T15:55:14.215719795+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T15:55:14.215889296+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T15:55:14.216154498+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T15:55:14.216299199+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T15:55:14.216488101+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T15:55:14.216636202+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T15:55:14.216780003+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T15:55:14.217115106+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T15:55:14.217342007+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T15:55:14.217492309+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T15:55:14.217640410+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T15:55:14.217788511+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T15:55:14.217938312+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T15:55:14.218124313+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T15:55:14.218292315+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T15:55:14.218442516+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T15:55:14.218676518+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T15:55:14.219135421+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T15:55:14.219280423+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T15:55:14.219422124+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T15:55:14.219543825+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T15:55:14.219816727+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T15:55:17.225957455+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T15:55:17.226201557+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T15:55:17.226644260+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T15:55:17.227003363+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T15:55:17.227564867+08:00 INFO rocket_learning::sqlist_model::util - [35mDELETE FROM skt_list WHERE id=1 AND name=liubin;[0m
+2022-09-23T15:56:54.778659733+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T15:56:54.778844235+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T15:56:54.778987636+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T15:56:54.779174238+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T15:56:54.779301239+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T15:56:54.779445140+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T15:56:54.779585641+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T15:56:54.779727042+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T15:56:54.779853943+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T15:56:54.779996744+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T15:56:54.780127045+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T15:56:54.780266446+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T15:56:54.780392347+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T15:56:54.780686450+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T15:56:54.780879051+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T15:56:54.781105453+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T15:56:54.781329555+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T15:56:54.781499456+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T15:56:54.781695958+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T15:56:54.781908560+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T15:56:54.782109461+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T15:56:54.782919468+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T15:56:54.783087569+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T15:56:54.783490072+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T15:56:54.783663474+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T15:56:54.783798375+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T15:56:54.783932776+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T15:56:54.784188378+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T15:57:00.615178171+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T15:57:00.615452873+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T15:57:00.615826776+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T15:57:00.616208279+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T15:57:00.616741483+08:00 INFO rocket_learning::sqlist_model::util - [1;4;49;39mDELETE FROM skt_list WHERE id=1 AND name=liubin;[0m
+2022-09-23T15:58:56.058286576+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T15:58:56.058467778+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T15:58:56.058730180+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T15:58:56.058958482+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T15:58:56.059143983+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T15:58:56.059287784+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T15:58:56.059432285+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T15:58:56.059570186+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T15:58:56.059707187+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T15:58:56.059844089+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T15:58:56.059969890+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T15:58:56.060204092+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T15:58:56.060348093+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T15:58:56.060646496+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T15:58:56.060861297+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T15:58:56.061008598+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T15:58:56.061154199+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T15:58:56.061300401+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T15:58:56.061447402+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T15:58:56.061588503+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T15:58:56.061748104+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T15:58:56.061890606+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T15:58:56.062067407+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T15:58:56.062513711+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T15:58:56.062762812+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T15:58:56.062897214+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T15:58:56.063030915+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T15:58:56.063311017+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T15:58:58.379750585+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T15:58:58.380041187+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T15:58:58.380416990+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T15:58:58.380782093+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T15:58:58.381386398+08:00 INFO rocket_learning::sqlist_model::util - [36m)DELETE FROM skt_list WHERE id=1 AND name=liubin;[0m
+2022-09-23T15:59:27.742087180+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T15:59:27.742419182+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T15:59:27.742625584+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T15:59:27.742787086+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T15:59:27.742951887+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T15:59:27.743124388+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T15:59:27.743295590+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T15:59:27.743459691+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T15:59:27.743622792+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T15:59:27.743785694+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T15:59:27.743967695+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T15:59:27.744124397+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T15:59:27.744276798+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T15:59:27.744638601+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T15:59:27.744871203+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T15:59:27.745072704+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T15:59:27.745248206+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T15:59:27.745423007+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T15:59:27.745599108+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T15:59:27.745768210+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T15:59:27.745990312+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T15:59:27.746162013+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T15:59:27.746330214+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T15:59:27.746864019+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T15:59:27.747030220+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T15:59:27.747192422+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T15:59:27.747368923+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T15:59:27.747662725+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T15:59:29.304306860+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T15:59:29.304579562+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T15:59:29.304981766+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T15:59:29.305424670+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T15:59:29.305859573+08:00 INFO rocket_learning::sqlist_model::util - [36mDELETE FROM skt_list WHERE id=1 AND name=liubin;[0m
+2022-09-23T16:00:55.797112932+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T16:00:55.797406434+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T16:00:55.797816237+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T16:00:55.798235641+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T16:00:55.798499943+08:00 INFO rocket_learning::sqlist_model::util - [36mDELETE FROM skt_list WHERE id=1 AND name=liubin;[0m
+2022-09-23T16:30:27.040417988+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T16:30:27.040606987+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T16:30:27.040746088+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T16:30:27.040893488+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T16:30:27.041032388+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T16:30:27.041180488+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T16:30:27.041325488+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T16:30:27.041467688+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T16:30:27.041612388+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T16:30:27.041752688+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T16:30:27.041909988+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T16:30:27.042053088+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T16:30:27.042196888+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T16:30:27.042586288+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T16:30:27.042817988+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T16:30:27.042969088+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T16:30:27.043129888+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T16:30:27.043279388+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T16:30:27.043434188+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T16:30:27.043579588+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T16:30:27.043742588+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T16:30:27.043888589+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T16:30:27.044036588+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T16:30:27.044429289+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T16:30:27.044574288+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T16:30:27.044709689+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T16:30:27.044955189+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T16:30:27.045227089+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T16:33:14.042658725+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T16:33:14.042876125+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T16:33:14.043034925+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T16:33:14.043190825+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T16:33:14.043347225+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T16:33:14.043516725+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T16:33:14.043687826+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T16:33:14.043848026+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T16:33:14.044010726+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T16:33:14.044165826+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T16:33:14.044337326+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T16:33:14.044495826+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T16:33:14.044651127+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T16:33:14.045028927+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T16:33:14.045300127+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T16:33:14.045469027+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T16:33:14.045643928+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T16:33:14.045809028+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T16:33:14.045986928+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T16:33:14.046155528+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T16:33:14.046358528+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T16:33:14.046587028+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T16:33:14.046759529+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T16:33:14.047247929+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T16:33:14.047409029+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T16:33:14.047572629+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T16:33:14.047727030+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T16:33:14.048037930+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T16:33:37.109628405+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T16:33:37.109780605+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T16:33:37.109889605+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T16:33:37.110010605+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T16:33:37.110117506+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T16:33:37.110230506+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T16:33:37.110344506+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T16:33:37.110452906+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T16:33:37.110661306+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T16:33:37.110787706+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T16:33:37.110913906+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T16:33:37.111064706+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T16:33:37.111171906+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T16:33:37.111449907+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T16:33:37.111613107+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T16:33:37.111730507+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T16:33:37.111847007+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T16:33:37.112032107+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T16:33:37.112151408+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T16:33:37.112263007+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T16:33:37.112392007+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T16:33:37.112522208+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T16:33:37.112632308+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T16:33:37.113000408+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T16:33:37.113124508+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T16:33:37.113229808+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T16:33:37.113332809+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T16:33:37.113570609+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T16:39:18.238777529+08:00 WARN rocket::server - Received SIGINT. Requesting shutdown.
+2022-09-23T16:39:18.239172130+08:00 INFO rocket::server - Shutdown requested. Waiting for pending I/O...
+2022-09-23T16:39:18.239432131+08:00 INFO rocket::server - Graceful shutdown completed successfully.
+2022-09-23T16:40:28.625646748+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T16:40:28.625864048+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T16:40:28.626047149+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T16:40:28.626204549+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T16:40:28.626362849+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T16:40:28.626678450+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T16:40:28.626861250+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T16:40:28.627020651+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T16:40:28.627177251+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T16:40:28.627332751+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T16:40:28.627494452+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T16:40:28.627654452+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T16:40:28.627809252+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T16:40:28.628167753+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T16:40:28.628436053+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T16:40:28.628594954+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T16:40:28.628753054+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T16:40:28.628935755+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T16:40:28.629109255+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T16:40:28.629271355+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T16:40:28.629461256+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T16:40:28.629626156+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T16:40:28.629787557+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T16:40:28.630233057+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T16:40:28.630391057+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T16:40:28.630589758+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T16:40:28.630744758+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T16:40:28.631050659+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T16:40:31.825604095+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T16:40:31.825927495+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T16:40:31.826811397+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T16:40:31.827763999+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T16:41:03.921810323+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T16:41:03.922167324+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T16:41:03.922395124+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T16:41:03.922766725+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T16:41:03.923035525+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T16:41:03.923302226+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T16:41:03.923598127+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T16:41:03.923917727+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T16:41:03.924364728+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T16:41:03.924636529+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T16:41:03.924895229+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T16:41:03.925166530+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T16:41:03.925422430+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T16:41:03.925839231+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T16:41:03.926215532+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T16:41:03.926481432+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T16:41:03.926811433+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T16:41:03.927075934+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T16:41:03.927342235+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T16:41:03.927604535+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T16:41:03.927890735+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T16:41:03.928152336+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T16:41:03.928411337+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T16:41:03.928937538+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T16:41:03.929202839+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T16:41:03.929457739+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T16:41:03.929711639+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T16:41:03.930067640+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T16:41:06.322588360+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T16:41:06.322892061+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T16:41:06.323318962+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T16:41:06.323746263+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T16:41:36.226981595+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T16:41:36.227164696+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T16:41:36.227307396+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T16:41:36.227443196+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T16:41:36.227583796+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T16:41:36.227767097+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T16:41:36.227962797+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T16:41:36.228094698+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T16:41:36.228237398+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T16:41:36.228361198+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T16:41:36.228499198+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T16:41:36.228625299+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T16:41:36.228764799+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T16:41:36.229058300+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T16:41:36.229272801+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T16:41:36.229409300+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T16:41:36.229552301+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T16:41:36.229701701+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T16:41:36.229871702+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T16:41:36.230015402+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T16:41:36.230174602+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T16:41:36.230370103+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T16:41:36.230499403+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T16:41:36.231011004+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T16:41:36.231144904+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T16:41:36.231291004+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T16:41:36.231413705+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T16:41:36.231682805+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T16:41:38.420731898+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T16:41:38.421019899+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T16:41:38.421663900+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T16:41:38.422056601+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:07:41.773039542+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:07:41.773297843+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:07:41.773447243+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:07:41.773604644+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:07:41.773753144+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:07:41.773907945+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:07:41.774063645+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:07:41.774507746+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:07:41.774725846+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:07:41.775307148+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:07:41.775573748+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:07:41.775737049+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:07:41.775905049+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:07:41.776298050+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:07:41.776552550+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:07:41.776722551+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:07:41.776901251+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:07:41.777078052+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:07:41.777249752+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:07:41.777414252+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:07:41.777607753+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:07:41.777775353+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:07:41.777938954+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:07:41.778431855+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:07:41.778640755+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:07:41.778797855+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:07:41.778953656+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:07:41.779246057+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:08:15.871508781+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:08:15.871758882+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:08:15.871928582+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:08:15.872258983+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:08:15.872418683+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:08:15.872573484+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:08:15.872714984+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:08:15.872857084+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:08:15.873016385+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:08:15.873398186+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:08:15.873546486+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:08:15.874053787+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:08:15.874218587+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:08:15.874939089+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:08:15.875258290+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:08:15.875410190+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:08:15.875561391+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:08:15.875712391+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:08:15.875865591+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:08:15.876047091+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:08:15.876219592+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:08:15.876375592+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:08:15.876520293+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:08:15.877118894+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:08:15.877260194+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:08:15.877572295+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:08:15.877710695+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:08:15.878177896+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:09:00.558103104+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:09:00.558287005+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:09:00.558413505+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:09:00.558647306+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:09:00.558827806+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:09:00.559012606+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:09:00.559193407+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:09:00.559362807+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:09:00.559534308+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:09:00.559710308+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:09:00.559861308+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:09:00.560063809+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:09:00.560269709+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:09:00.560639510+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:09:00.560884011+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:09:00.561085411+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:09:00.561236611+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:09:00.561372212+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:09:00.561518812+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:09:00.561736012+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:09:00.561935613+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:09:00.562086413+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:09:00.562265514+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:09:00.562847315+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:09:00.563040616+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:09:00.563199316+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:09:00.563349916+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:09:00.563771017+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:09:03.953782809+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:09:03.954065010+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:09:03.954415911+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:09:03.954910412+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:09:03.957144317+08:00 INFO rocket_learning::sqlist_model::util - [36mDELETE FROM skt_list WHERE id=1 AND name=liubin;[0m
+2022-09-23T17:09:03.957295017+08:00 ERROR rocket_learning::sqlist_model::util - [36mno such table: skt_list[0m
+2022-09-23T17:10:58.701975790+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:10:58.702182990+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:10:58.702372690+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:10:58.702511891+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:10:58.702720691+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:10:58.702947592+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:10:58.703095092+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:10:58.703250793+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:10:58.703478793+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:10:58.703631394+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:10:58.703825694+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:10:58.704024994+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:10:58.704207995+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:10:58.704560396+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:10:58.704846996+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:10:58.705064297+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:10:58.705264198+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:10:58.705456898+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:10:58.705582298+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:10:58.705756298+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:10:58.705957799+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:10:58.706134899+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:10:58.706366100+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:10:58.706907501+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:10:58.707079102+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:10:58.707260602+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:10:58.707447702+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:10:58.707736903+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:11:01.251653701+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:11:01.251920301+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:11:01.252333502+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:11:01.252769803+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:11:01.254368007+08:00 INFO rocket_learning::sqlist_model::util - [36mDELETE FROM skt_list WHERE id=1 AND name=liubin;[0m
+2022-09-23T17:11:01.254589907+08:00 ERROR rocket_learning::sqlist_model::util - [36mno such table: skt_list[0m
+2022-09-23T17:12:12.711918104+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:12:12.712118405+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:12:12.712281805+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:12:12.712440506+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:12:12.712597106+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:12:12.712764207+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:12:12.712923107+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:12:12.713114007+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:12:12.713259708+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:12:12.713402908+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:12:12.713561308+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:12:12.713718909+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:12:12.713877009+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:12:12.714240910+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:12:12.714471311+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:12:12.714730511+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:12:12.714887211+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:12:12.715081112+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:12:12.715254212+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:12:12.715394913+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:12:12.715578813+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:12:12.715745014+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:12:12.715914314+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:12:12.716394115+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:12:12.716560815+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:12:12.716717016+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:12:12.716874016+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:12:12.717170417+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:12:16.086370910+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:12:16.086768612+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:12:16.087400413+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:12:16.088000914+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:12:16.089652118+08:00 INFO rocket_learning::sqlist_model::util - [36mDELETE FROM skt_list WHERE id=1 AND name=liubin;[0m
+2022-09-23T17:12:16.089810619+08:00 ERROR rocket_learning::sqlist_model::util - [36mno such column: liubin[0m
+2022-09-23T17:12:55.483594842+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:12:55.483830343+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:12:55.483990543+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:12:55.484169043+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:12:55.484357844+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:12:55.484539744+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:12:55.484714345+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:12:55.484899445+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:12:55.485101846+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:12:55.485305947+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:12:55.485528747+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:12:55.485698047+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:12:55.485861448+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:12:55.486250649+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:12:55.486497449+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:12:55.486756750+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:12:55.486898350+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:12:55.487065751+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:12:55.487245151+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:12:55.487424351+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:12:55.487620152+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:12:55.487783252+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:12:55.487942153+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:12:55.488426954+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:12:55.488570554+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:12:55.488718454+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:12:55.488870255+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:12:55.489182855+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:12:57.538095933+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:12:57.538464433+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:12:57.539244935+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:12:57.539692336+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:12:57.541065039+08:00 INFO rocket_learning::sqlist_model::util - [1mDELETE FROM skt_list WHERE id=1 AND name=liubin;[0m
+2022-09-23T17:12:57.541202339+08:00 ERROR rocket_learning::sqlist_model::util - [1mno such column: liubin[0m
+2022-09-23T17:13:28.180145757+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:13:28.180417558+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:13:28.180604758+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:13:28.180777959+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:13:28.180965759+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:13:28.181119460+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:13:28.181333960+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:13:28.181768561+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:13:28.181928861+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:13:28.182074862+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:13:28.182264162+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:13:28.182415163+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:13:28.182635363+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:13:28.183079364+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:13:28.183363765+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:13:28.183559365+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:13:28.183734766+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:13:28.183982966+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:13:28.184169167+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:13:28.184340067+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:13:28.184563168+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:13:28.184748768+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:13:28.184908169+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:13:28.185496670+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:13:28.185913271+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:13:28.186119471+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:13:28.186309372+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:13:28.186701873+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:13:30.139375032+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:13:30.139656932+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:13:30.140015733+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:13:30.140468634+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:13:30.141973638+08:00 INFO rocket_learning::sqlist_model::util - [30mDELETE FROM skt_list WHERE id=1 AND name=liubin;[0m
+2022-09-23T17:13:30.142128039+08:00 ERROR rocket_learning::sqlist_model::util - [30mno such column: liubin[0m
+2022-09-23T17:14:00.358744310+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:14:00.359097711+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:14:00.359333812+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:14:00.359687512+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:14:00.359983913+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:14:00.360269614+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:14:00.360463614+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:14:00.360633714+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:14:00.360799015+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:14:00.360959915+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:14:00.361133916+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:14:00.361304116+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:14:00.361469016+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:14:00.361903117+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:14:00.362183618+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:14:00.362363018+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:14:00.362586819+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:14:00.362765819+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:14:00.362949620+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:14:00.363123220+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:14:00.363324521+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:14:00.363492221+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:14:00.363655721+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:14:00.364175923+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:14:00.364414323+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:14:00.364657824+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:14:00.364807424+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:14:00.365114725+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:14:10.375989667+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:14:10.376321968+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:14:10.376924370+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:14:10.377405671+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:14:10.379183575+08:00 INFO rocket_learning::sqlist_model::util - [31mDELETE FROM skt_list WHERE id=1 AND name=liubin;[0m
+2022-09-23T17:14:10.379509376+08:00 ERROR rocket_learning::sqlist_model::util - [31mno such column: liubin[0m
+2022-09-23T17:15:08.122485067+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:15:08.122927469+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:15:08.123108969+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:15:08.123279169+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:15:08.123489470+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:15:08.123662770+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:15:08.123871271+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:15:08.124021871+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:15:08.124158572+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:15:08.124307772+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:15:08.124470572+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:15:08.124670673+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:15:08.124848473+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:15:08.125174074+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:15:08.125461875+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:15:08.125669675+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:15:08.125858176+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:15:08.126077576+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:15:08.126311677+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:15:08.126465477+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:15:08.126753978+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:15:08.126971978+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:15:08.127156479+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:15:08.127636980+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:15:08.127799980+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:15:08.127968681+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:15:08.128142881+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:15:08.128405781+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:15:10.144260621+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:15:10.144876523+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:15:10.145840625+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:15:10.146282926+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:15:10.147866230+08:00 ERROR rocket_learning::sqlist_model::util - [31m[DELETE FROM skt_list WHERE id=1 AND name=liubin;] no such column: liubin[0m
+2022-09-23T17:15:52.843245462+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:15:52.843613863+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:15:52.843919864+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:15:52.844179665+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:15:52.844425265+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:15:52.844700666+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:15:52.845045667+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:15:52.845303167+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:15:52.845627368+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:15:52.845923069+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:15:52.846300970+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:15:52.846718671+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:15:52.847131572+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:15:52.847587673+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:15:52.847949674+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:15:52.848267574+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:15:52.848533975+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:15:52.848807076+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:15:52.849081577+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:15:52.849331377+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:15:52.849626678+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:15:52.849896878+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:15:52.850164979+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:15:52.850775081+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:15:52.851041281+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:15:52.851301482+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:15:52.851560683+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:15:52.851957784+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:15:57.808879715+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:15:57.809177115+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:15:57.809564016+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:15:57.809929017+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:15:57.811604921+08:00 ERROR rocket_learning::sqlist_model::util - [31m[DELETE FROM skt_list WHERE id=1 AND name=liubin;] Err: no such column: liubin[0m
+2022-09-23T17:16:30.519278418+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:16:30.519520619+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:16:30.519664219+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:16:30.519868420+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:16:30.520137820+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:16:30.520325121+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:16:30.520518621+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:16:30.520705322+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:16:30.520854622+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:16:30.521033922+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:16:30.521199923+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:16:30.521385023+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:16:30.521544924+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:16:30.521938025+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:16:30.522316625+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:16:30.522492726+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:16:30.522763227+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:16:30.522938027+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:16:30.523114728+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:16:30.523381028+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:16:30.523641529+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:16:30.523828529+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:16:30.524028729+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:16:30.524462831+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:16:30.524625531+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:16:30.524786132+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:16:30.524958632+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:16:30.525227933+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:16:33.819291276+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:16:33.819590677+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:16:33.820045178+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:16:33.820493079+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:16:33.821997483+08:00 ERROR rocket_learning::sqlist_model::util - [31m[DELETE FROM skt_list WHERE id=1 AND name=liubin;] -- Err: no such column: liubin[0m
+2022-09-23T17:17:15.926289914+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:17:15.926474415+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:17:15.926783415+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:17:15.926994016+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:17:15.927369217+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:17:15.927578818+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:17:15.927744218+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:17:15.927955618+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:17:15.928100618+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:17:15.928236419+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:17:15.928602120+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:17:15.928763420+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:17:15.928968921+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:17:15.929377922+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:17:15.929654222+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:17:15.929863522+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:17:15.930177023+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:17:15.930350923+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:17:15.930712024+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:17:15.930923025+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:17:15.931114226+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:17:15.931273226+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:17:15.931458126+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:17:15.931902727+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:17:15.932053228+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:17:15.932199928+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:17:15.932346228+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:17:15.932614229+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:17:18.998996739+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:17:18.999373940+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:17:18.999741541+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:17:19.000058042+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:17:19.001712346+08:00 ERROR rocket_learning::sqlist_model::util - [31mDELETE FROM skt_list WHERE id=1 AND name=liubin; -- Err: no such column: liubin[0m
+2022-09-23T17:18:06.648629745+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:18:06.648924647+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:18:06.649110148+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:18:06.649347150+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:18:06.649527451+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:18:06.649691352+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:18:06.649900054+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:18:06.650069656+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:18:06.650254056+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:18:06.650416358+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:18:06.650631659+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:18:06.650849061+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:18:06.651009462+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:18:06.651355165+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:18:06.651581766+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:18:06.651719567+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:18:06.651881969+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:18:06.652024569+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:18:06.652196270+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:18:06.652404072+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:18:06.652579473+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:18:06.652728875+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:18:06.652858875+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:18:06.653292379+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:18:06.653419180+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:18:06.653552181+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:18:06.653675581+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:18:06.653924683+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:18:08.789031027+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:18:08.789415929+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:18:08.789894533+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:18:08.790371336+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:18:08.792804654+08:00 ERROR rocket_learning::sqlist_model::util - [31mDELETE FROM skt_list WHERE id=1 AND name=liubin; -- Err: Error {
+    code: Some(
+        1,
+    ),
+    message: Some(
+        "no such column: liubin",
+    ),
+}[0m
+2022-09-23T17:19:25.295257817+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:19:25.295441118+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:19:25.295617219+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:19:25.295739820+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:19:25.295929421+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:19:25.296124322+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:19:25.296267923+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:19:25.296391124+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:19:25.296523225+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:19:25.296644626+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:19:25.296780027+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:19:25.296912428+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:19:25.297043229+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:19:25.297338931+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:19:25.297607733+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:19:25.297768033+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:19:25.297907934+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:19:25.298047535+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:19:25.298195036+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:19:25.298343137+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:19:25.298589639+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:19:25.298771540+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:19:25.298911841+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:19:25.299307544+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:19:25.299430444+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:19:25.299559145+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:19:25.299677446+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:19:25.299923148+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:19:27.356314678+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:19:27.356797082+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:19:27.357244084+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:19:27.357647687+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:19:27.359889102+08:00 ERROR rocket_learning::sqlist_model::util - [31mDELETE FROM skt_list WHERE id=1 AND name=liubin; -- | Err: no such column: liubin |[0m
+2022-09-23T17:20:35.494905621+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:20:35.495257322+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:20:35.495546624+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:20:35.495779626+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:20:35.496011527+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:20:35.496255929+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:20:35.496444230+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:20:35.496613731+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:20:35.496780132+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:20:35.496969433+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:20:35.497133134+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:20:35.497293335+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:20:35.500190153+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:20:35.500694956+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:20:35.501030558+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:20:35.501211960+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:20:35.501388961+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:20:35.501565162+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:20:35.501745563+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:20:35.501917764+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:20:35.503508174+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:20:35.503693776+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:20:35.503873376+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:20:35.504396080+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:20:35.504564481+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:20:35.504727382+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:20:35.504971083+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:20:35.505291385+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:20:47.817828237+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:20:47.818078738+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:20:47.818437540+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:20:47.818928443+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:20:47.820201251+08:00 ERROR rocket_learning::sqlist_model::util - [31mDELETE FROM skt_list WHERE id=1 AND name=liubin; | Err: “no such column: liubin” |[0m
+2022-09-23T17:23:49.141846218+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:23:49.142078019+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:23:49.142276320+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:23:49.142444821+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:23:49.142700523+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:23:49.142864723+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:23:49.143028424+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:23:49.143191525+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:23:49.143338826+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:23:49.143471827+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:23:49.143657328+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:23:49.143858729+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:23:49.144004130+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:23:49.144499332+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:23:49.144785133+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:23:49.144945234+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:23:49.145133235+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:23:49.145322337+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:23:49.145511838+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:23:49.145695939+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:23:49.146087840+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:23:49.146291941+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:23:49.146475342+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:23:49.147006545+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:23:49.147206146+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:23:49.147370747+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:23:49.147561648+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:23:49.147903250+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:23:51.393827497+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:23:51.394104999+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:23:51.394495601+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:23:51.394921603+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:23:51.396557712+08:00 ERROR rocket_learning::sqlist_model::util - [31mDELETE FROM skt_list WHERE id=1 AND name=liubin; | Err: “no such column: liubin” |[0m
+2022-09-23T17:31:29.500576236+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:31:29.500847037+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:31:29.501183538+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:31:29.501602940+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:31:29.502312743+08:00 ERROR rocket_learning::sqlist_model::util - [31mDELETE FROM skt_list WHERE id=1 AND name=liubin; | Err: “no such column: liubin” |[0m
+2022-09-23T17:33:06.355759583+08:00 INFO rocket::config::config - 🔧 Configured for debug.
+2022-09-23T17:33:06.356712886+08:00 INFO rocket::config::config - address: [1;49;39m0.0.0.0[0m
+2022-09-23T17:33:06.356862987+08:00 INFO rocket::config::config - port: [1;49;39m7003[0m
+2022-09-23T17:33:06.357012087+08:00 INFO rocket::config::config - workers: [1;49;39m8[0m
+2022-09-23T17:33:06.357208988+08:00 INFO rocket::config::config - ident: [1;49;39mRocket[0m
+2022-09-23T17:33:06.357415289+08:00 INFO rocket::config::config - limits: [1;49;39mbytes = 8KiB, data-form = 2MiB, file = 1MiB, form = 64kB, json = 1MiB, msgpack = 1MiB, string = 8KiB[0m
+2022-09-23T17:33:06.357680090+08:00 INFO rocket::config::config - temp dir: [1;49;39m/tmp[0m
+2022-09-23T17:33:06.357905791+08:00 INFO rocket::config::config - http/2: [1;49;39mtrue[0m
+2022-09-23T17:33:06.358108992+08:00 INFO rocket::config::config - keep-alive: [1;49;39m5[0m[1;49;39ms[0m
+2022-09-23T17:33:06.358325592+08:00 INFO rocket::config::config - tls: [1;49;39mdisabled[0m
+2022-09-23T17:33:06.358586794+08:00 INFO rocket::config::config - shutdown: [1;49;39mctrlc = true, force = true, signals = [SIGTERM], grace = 2s, mercy = 3s[0m
+2022-09-23T17:33:06.358783994+08:00 INFO rocket::config::config - log level: [1;49;39mnormal[0m
+2022-09-23T17:33:06.359020096+08:00 INFO rocket::config::config - cli colors: [1;49;39mtrue[0m
+2022-09-23T17:33:06.359376497+08:00 INFO rocket::rocket - 📬 [35mRoutes[0m:
+2022-09-23T17:33:06.359666298+08:00 INFO rocket::rocket - [36m([0m[37mstop[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/stop[0m
+2022-09-23T17:33:06.359942399+08:00 INFO rocket::rocket - [36m([0m[37mlist[0m[36m)[0m [32mGET[0m [4;34m/api[0m[34m/list[0m
+2022-09-23T17:33:06.360182800+08:00 INFO rocket::rocket - [36m([0m[37mstart[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/start[0m
+2022-09-23T17:33:06.360388101+08:00 INFO rocket::rocket - [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:33:06.360930803+08:00 INFO rocket::rocket - 🥅 [35mCatchers[0m:
+2022-09-23T17:33:06.361096604+08:00 INFO rocket::rocket - [36m([0m[37mcatch_404[0m[36m)[0m [34m404[0m
+2022-09-23T17:33:06.361490705+08:00 INFO rocket::fairing::fairings - 📡 [35mFairings[0m:
+2022-09-23T17:33:06.361642306+08:00 INFO rocket::fairing::fairings - [1;49;39mShield[0m ([1;34mliftoff, response, singleton[0m)
+2022-09-23T17:33:06.361854007+08:00 INFO rocket::fairing::fairings - [1;49;39mLiftoff Printer[0m ([1;34mliftoff[0m)
+2022-09-23T17:33:06.362820011+08:00 INFO rocket::shield::shield - 🛡️ [35mShield[0m:
+2022-09-23T17:33:06.363135512+08:00 INFO rocket::shield::shield - X-Frame-Options: [49;39mSAMEORIGIN[0m
+2022-09-23T17:33:06.363322713+08:00 INFO rocket::shield::shield - X-Content-Type-Options: [49;39mnosniff[0m
+2022-09-23T17:33:06.363458813+08:00 INFO rocket::shield::shield - Permissions-Policy: [49;39minterest-cohort=()[0m
+2022-09-23T17:33:06.364012715+08:00 INFO rocket::rocket - 🚀 [1;49;39mRocket has launched from[0m [1;4;49;39mhttp://0.0.0.0:7003[0m
+2022-09-23T17:33:08.059318404+08:00 INFO rocket::server - [32mPOST[0m [34m/api/create[0m [33mapplication[0m[33m/[0m[33mjson[0m:
+2022-09-23T17:33:08.059587005+08:00 INFO rocket::server - Matched: [36m([0m[37mcreate[0m[36m)[0m [32mPOST[0m [4;34m/api[0m[34m/create[0m
+2022-09-23T17:33:08.059988807+08:00 INFO rocket::server - [1;49;39mOutcome:[0m [49;32mSuccess[0m
+2022-09-23T17:33:08.060377408+08:00 INFO rocket::server - [32mResponse succeeded.[0m
+2022-09-23T17:33:08.062034514+08:00 INFO rocket_learning::sqlist_model::util - [36mDELETE FROM skt_list WHERE id=1 AND name='liubin';[0m
