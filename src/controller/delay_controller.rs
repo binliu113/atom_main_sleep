@@ -1,9 +1,9 @@
 use std::collections::HashMap;
 use rocket::{get, post};
 use rocket::tokio::time::{sleep, Duration};
-use rocket_learning::utils::resp_struct::{RespJson, Json, delay_struct};
+use rocket_atom::utils::resp_struct::{RespJson, Json, delay_struct};
 use chrono::prelude::{Local};
-use rocket_learning::caches::{CACHE_MUTEX, LIST_MUTEX};
+use rocket_atom::caches::{CACHE_MUTEX, LIST_MUTEX};
 
 
 #[get("/test-get?<api_params..>")]

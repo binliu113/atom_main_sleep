@@ -1,16 +1,25 @@
 use rocket::tokio;
 use rocket::tokio::sync::mpsc::Receiver;
-use rocket_learning::sqlist_model::MODEL_SKT_LIST;
-use rocket_learning::sqlist_model::util::Model;
+use rocket_atom::sqlist_model::{
+    util::Model,
+    wrapper::{QueryWrapper},
+    skt_list_model::SktListModel,
+};
+use rocket_atom::sqlist_model::util::ValueType;
+
 
 pub struct OnLiftoff {}
 
 impl OnLiftoff {
     async fn sql_handel(_msg: String) {
-        let mut skt_list = MODEL_SKT_LIST.lock().await.clone();
-        skt_list.id.value = Some(1);
-        skt_list.name.value = Some("liubin".to_string());
-        let _a = skt_list.delete(vec![skt_list.clone()]).await;
+        let skt_list = SktListModel::new();
+        let mut wrp: QueryWrapper = QueryWrapper::new();
+        let name_val = Some(String::from(""));
+        wrp.eq(&skt_list.name, ValueType::TEXT(name_val.clone()))
+            .and()
+            .eq(&skt_list.name, ValueType::TEXT(name_val.clone()));
+
+        wrp.debug();
     }
 
     pub async fn sql_event(mut rx: Receiver<String>) {

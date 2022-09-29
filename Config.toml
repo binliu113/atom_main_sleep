@@ -3,7 +3,7 @@ config_path = "log4rs.yml"
 
 [sqlite]
 pathname = "data_cache/data.sqlite"
-debug_query = true
+debug_query = false
 
 [[sqlite.tables]]
 info = "用户表"

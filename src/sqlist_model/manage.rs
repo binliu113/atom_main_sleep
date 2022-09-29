@@ -29,6 +29,7 @@ pub enum ArgsOpt {
     Server,
 }
 
+
 pub struct ClearDB {}
 
 impl ClearDB {
@@ -41,16 +42,17 @@ impl ClearDB {
 
         for (_index, table) in tables.iter().enumerate() {
             let t = format!("DROP TABLE {};", &table.tablename);
+
             statement += &*t;
         }
 
-        let statement = SQLITE_MODEL.lock().await.conn.execute(statement);
+        let res = SQLITE_MODEL.lock().await.execute_query(statement.clone());
 
-        match statement {
-            Ok(_) => {
+        match res {
+            true => {
                 Ok(())
             }
-            Err(_) => {
+            false => {
                 panic!("操作失败！！");
             }
         }
@@ -62,7 +64,6 @@ pub struct ResetDB {}
 impl ResetDB {
     pub async fn run() -> Result<(), rocket::Error> {
         let config = CONFIGURATION.clone();
-        let sqlite_model = SQLITE_MODEL.lock().await;
 
         let tables = &config.config.sqlite.tables.as_ref().unwrap().clone();
 
@@ -71,7 +72,11 @@ impl ResetDB {
         let mut d_statement = String::from("");
 
         for (_index, table) in tables.iter().enumerate() {
-            let t = format!("CREATE TABLE {} ({});", table.tablename.clone(), table.columns.join(","));
+            let t = format!(
+                "CREATE TABLE {} ({});",
+                table.tablename.clone(),
+                table.columns.join(",")
+            );
 
             let d = format!("DROP TABLE {};", table.tablename.clone());
 
@@ -80,15 +85,15 @@ impl ResetDB {
             statement += &*t;
         }
 
-        let statement_res = sqlite_model.conn.execute(&statement);
+        let res = SQLITE_MODEL.lock().await.execute_query(statement.clone());
 
-        match statement_res {
-            Ok(_) => {
-                Ok(())
-            }
-            Err(_) => {
-                let _ = sqlite_model.conn.execute(&d_statement);
-                let _ = sqlite_model.conn.execute(&statement);
+        match res {
+            true => Ok(()),
+            false => {
+                let _ = SQLITE_MODEL.lock().await.execute_query(d_statement.clone());
+
+                let _ = SQLITE_MODEL.lock().await.execute_query(statement.clone());
+
                 Ok(())
             }
         }

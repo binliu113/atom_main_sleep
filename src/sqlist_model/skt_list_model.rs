@@ -1,14 +1,14 @@
-use crate::sqlist_model::util::{Model, Column, Type};
+use crate::sqlist_model::util::{Model, Column, ValueType};
 use serde::{Serialize, Deserialize};
 
 #[derive(Serialize, Deserialize, Clone, Debug)]
 pub struct SktListModel {
-    pub id: Column<u32>,
-    pub name: Column<String>,
-    pub skt_type: Column<String>,
-    pub ip: Column<String>,
-    pub port: Column<u32>,
-    pub online: Column<u32>,
+    pub id: Column,
+    pub name: Column,
+    pub skt_type: Column,
+    pub ip: Column,
+    pub port: Column,
+    pub online: Column,
 }
 
 impl Model<SktListModel> for SktListModel {
@@ -19,43 +19,43 @@ impl Model<SktListModel> for SktListModel {
     fn new() -> Self {
         Self {
             id: Column {
-                value: None,
-                col_type: Type::INTEGER,
+                field: String::from("id"),
+                value: ValueType::INTEGER(None),
                 not_null: true,
                 primary_key: true,
                 autoincrement: true,
             },
             name: Column {
-                value: None,
-                col_type: Type::TEXT,
+                field: String::from("name"),
+                value: ValueType::TEXT(None),
                 not_null: true,
                 primary_key: false,
                 autoincrement: false,
             },
             skt_type: Column {
-                value: None,
-                col_type: Type::TEXT,
+                field: String::from("skt_type"),
+                value: ValueType::TEXT(None),
                 not_null: true,
                 primary_key: false,
                 autoincrement: false,
             },
             ip: Column {
-                value: None,
-                col_type: Type::TEXT,
+                field: String::from("ip"),
+                value: ValueType::TEXT(None),
                 not_null: true,
                 primary_key: false,
                 autoincrement: false,
             },
             port: Column {
-                value: None,
-                col_type: Type::INTEGER,
+                field: String::from("port"),
+                value: ValueType::INTEGER(None),
                 not_null: true,
                 primary_key: false,
                 autoincrement: false,
             },
             online: Column {
-                value: None,
-                col_type: Type::INTEGER,
+                field: String::from("online"),
+                value: ValueType::INTEGER(None),
                 not_null: true,
                 primary_key: false,
                 autoincrement: false,

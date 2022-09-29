@@ -21,7 +21,7 @@ pub enum RespCode {
 /// ```rust
 ///
 /// use rocket::serde::json::Json;
-/// use rocket_learning::utils::resp_struct::{Code, RespJson};
+/// use rocket_atom::utils::resp_struct::{Code, RespJson};
 ///
 /// fn get() -> Json<RespJson<String>> {
 ///     Json(RespJson {
@@ -63,7 +63,7 @@ impl<T> RespJson<T> where T: Clone + Default {
     /// ```
     /// use std::collections::HashMap;
     /// use rocket::serde::json::Json;
-    /// use rocket_learning::utils::resp_struct::{RespCode, RespJson};
+    /// use rocket_atom::utils::resp_struct::{RespCode, RespJson};
     /// fn get()-> Json<RespJson<HashMap<&str, u32>>> {
     ///     let mut hash_map:HashMap<&str,u32> = HashMap::new();
     ///     hash_map.insert("k1",10);
@@ -87,7 +87,7 @@ impl<T> RespJson<T> where T: Clone + Default {
     /// use rocket::{get};
     /// use std::collections::HashMap;
     /// use rocket::serde::json::Json;
-    /// use rocket_learning::utils::resp_struct::{RespCode, RespJson};
+    /// use rocket_atom::utils::resp_struct::{RespCode, RespJson};
     /// #[get("/example")]
     /// fn get()-> Json<RespJson<HashMap<&str, u32>>> {
     ///     let mut hash_map:HashMap<&str,u32> = HashMap::new();

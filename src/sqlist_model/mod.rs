@@ -1,10 +1,9 @@
 pub mod manage;
 pub mod skt_list_model;
 pub mod util;
+pub mod wrapper;
 
-use crate::sqlist_model::util::Model;
 
-use skt_list_model::SktListModel;
 use rocket::tokio::sync::{Mutex};
 use sqlite::Connection;
 use crate::caches::config_parser::Sqlite;
@@ -22,15 +21,41 @@ impl DBConn {
         match Connection::open(&sqlite_path) {
             Ok(_con) => Self { conn: _con },
             Err(_) => {
-                let p_info = format!("sqlist path: {:?} 数据库连接失败！", &sqlite_path);
+                let p_info = format!(
+                    "sqlist path: {:?} 数据库连接失败！",
+                    &sqlite_path
+                );
                 panic!("{}", &*p_info);
+            }
+        }
+    }
+
+    pub fn execute_query(&self, query: String) -> bool {
+        let debug_query = SQLITE_CONF.debug_query.unwrap();
+        match self.conn.execute(query.clone()) {
+            Ok(_) => {
+                if debug_query {
+                    log::info!(
+                        "[36m{:^6}[0m",
+                        query.clone()
+                    );
+                }
+                true
+            }
+            Err(e) => {
+                log::error!(
+                    "[31m{:^6} | Err: “{:^6}” |[0m",
+                    query.clone(),
+                    e.message.unwrap()
+                );
+                false
             }
         }
     }
 }
 
 lazy_static::lazy_static! {
-    pub static ref MODEL_SKT_LIST: Mutex<SktListModel> = Mutex::new(SktListModel::new());
     pub static ref SQLITE_MODEL: Mutex<DBConn> = Mutex::new(DBConn::new());
+
     pub static ref SQLITE_CONF: Sqlite  = CONFIGURATION.config.sqlite.clone();
 }

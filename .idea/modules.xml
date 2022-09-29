@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/rocket_learning.iml" filepath="$PROJECT_DIR$/.idea/rocket_learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rocket_atom.iml" filepath="$PROJECT_DIR$/.idea/rocket_atom.iml" />
     </modules>
   </component>
 </project>

@@ -9,9 +9,9 @@ use on_liftoff::OnLiftoff;
 use rocket::fairing::AdHoc;
 use rocket::tokio::sync::{mpsc};
 use rocket::{routes, catch, catchers};
-use rocket_learning::caches::{SKT_LIST, TX_SQL_CHANNEL, CONFIGURATION};
+use rocket_atom::caches::{SKT_LIST, TX_SQL_CHANNEL, CONFIGURATION};
 use controller::udpcli_controller::{start, stop, list, create};
-use rocket_learning::sqlist_model::manage::{ArgsOpt, Event, ClearDB, ResetDB};
+use rocket_atom::sqlist_model::manage::{ArgsOpt, Event, ClearDB, ResetDB};
 
 
 #[catch(404)]
